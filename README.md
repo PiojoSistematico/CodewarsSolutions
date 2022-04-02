@@ -1,0 +1,1 @@
+Codewars solutions for different kata levels
