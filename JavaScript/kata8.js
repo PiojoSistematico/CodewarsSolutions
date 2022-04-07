@@ -47,3 +47,23 @@ function paperwork(n, m) {
 function opposite(number) {
   return -number
 }
+
+//This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+function simpleMultiplication(number) {
+    if(number % 2 ===0){
+      return number*8
+    } else{
+      return  number*9
+    }
+}
+
+//Create a function which answers the question "Are you playing banjo?".
+//If your name starts with the letter "R" or lower case "r", you are playing banjo!
+//The function takes a name as its only argument, and returns one of the following strings:
+function areYouPlayingBanjo(name) {
+  if(name[0]==="R" || name[0]==="r"){
+    return `${name} plays banjo`;
+  } else {
+    return `${name} does not play banjo`;
+  }
+}
