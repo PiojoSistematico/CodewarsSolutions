@@ -107,3 +107,20 @@ const countSheep = function (num){
   }
   return result
 }
+
+//Write a function to split a string and convert it into an array of words.
+//Examples (Input -> Output):
+//* "Robin Singh" ==> ["Robin", "Singh"]
+//* "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+function stringToArray(string){
+  return string.split(" ")
+}
+
+//Given a number n, return the number of positive odd numbers below n, EASY!
+//Examples (Input -> Output)
+//* 7  -> 3 (because odd numbers below 7 are [1, 3, 5])
+//* 15 -> 7 (because odd numbers below 15 are [1, 3, 5, 7, 9, 11, 13])
+//Expect large Inputs!
+function oddCount(n){
+ return Math.floor(n/2)
+}
