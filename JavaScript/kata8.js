@@ -124,3 +124,20 @@ function stringToArray(string){
 function oddCount(n){
  return Math.floor(n/2)
 }
+
+//The Decibel Scale is used to determine the loudness of a sound, measured in dB:
+//Your task is to simply calculate the loudness of a sound wave, given its intensity as a parameter to the dBScale/db_scale function.
+function dBScale(intensity) {
+  return 10*Math.log10(intensity/Math.pow(10,-12))
+}
+
+//Your task is to find the first element of an array that is not consecutive.
+//By not consecutive we mean not exactly 1 larger than the previous element of the array.
+function firstNonConsecutive (arr) {
+  for(let i=1;i<arr.length;i++){
+    if(Math.abs(arr[i]-arr[i-1])>1){
+      return arr[i]
+    }
+  }
+  return null
+}
