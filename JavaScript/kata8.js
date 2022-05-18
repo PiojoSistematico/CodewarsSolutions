@@ -2,12 +2,7 @@
 
 
 
-//find the smallest elemnet in an array
-class SmallestIntegerFinder {
-  findSmallestInt(args) {
-    return Math.min(...args)
-  }
-}
+
 
 // basic math operation
 function basicOp(operation, value1, value2)
