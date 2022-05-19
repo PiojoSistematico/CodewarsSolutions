@@ -4,16 +4,7 @@
 
 
 
-// basic math operation
-function basicOp(operation, value1, value2)
-{
-  switch (operation){
-    case "+": return value1 + value2
-    case "-": return value1 - value2
-    case "*": return value1 * value2
-    default: return value1 / value2  
-  }
-}
+
 
 //Build a function that returns an array of integers from n to 1 where n>0.
 const reverseSeq = n => {
