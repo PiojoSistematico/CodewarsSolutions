@@ -2,10 +2,7 @@
 
 
 
-//Very simple, given an integer or a floating-point number, find its opposite.
-function opposite(number) {
-  return -number
-}
+
 
 //This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
 function simpleMultiplication(number) {
