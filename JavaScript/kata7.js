@@ -1,21 +1,5 @@
 //Some kata 7 solutions from Codewars
 
-//The museum of incredible dull things
-//The museum of incredible dull things wants to get rid of some exhibitions. Miriam, the interior architect, comes up with a plan to remove the most boring exhibitions. She gives them a rating, and then removes the one with the lowest rating.
-//However, just as she finished rating all exhibitions, she's off to an important fair, so she asks you to write a program that tells her the ratings of the items after one removed the lowest one. Fair enough.
-//Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
-//Don't change the order of the elements that are left.
-
-function removeSmallest(numbers) {
-  if(numbers.length==0){
-    return numbers
-  } else{
-    let smallest=Math.min(...numbers)
-    return numbers.slice(0,numbers.indexOf(smallest)).concat(numbers.slice(numbers.indexOf(smallest)+1))
-  }
-}
-
-
 //You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
 //#Examples:
 //Kata.getMiddle("test") should return "es"
